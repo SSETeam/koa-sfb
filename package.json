@@ -6,6 +6,7 @@
   "author": "PaulShi666",
   "license": "MIT",
   "dependencies": {
+    "faker": "^4.1.0",
     "koa": "^2.3.0",
     "koa-router": "^7.2.1"
   },

@@ -2,11 +2,9 @@ const Koa = require('koa');
 const router = require('koa-router')();
 const app = new Koa();
 
-const index = require('./routes/index');
-const detail = require('./routes/detail');
+const demo = require('./routes/demo');
 
-router.get('/index', index);
-router.get('/detail', detail);
+router.get('/api/demo', demo);
 
 app
     .use(router.routes())
