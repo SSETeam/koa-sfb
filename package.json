@@ -1,0 +1,14 @@
+{
+  "name": "koa-sfb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SSETeam/koa-sfb.git",
+  "author": "PaulShi666",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.3.0"
+  },
+  "script": {
+    "start": "node server.js"
+  }
+}
